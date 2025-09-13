@@ -8,7 +8,7 @@ import ProductCard from '../components/ui/ProductCard'
  
 
 
-const homepage = () => {
+const HomePage = () => {
   
   const { fetchProducts ,products ,showMsg ,msg,} =useContext(MyContext);
   useEffect(()=>{
@@ -54,4 +54,4 @@ const homepage = () => {
   )
 }
 
-export default homepage
+export default HomePage
